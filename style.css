@@ -5,6 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Head e nav */
 header {
     height: 80px;
 }
@@ -44,9 +45,12 @@ a {
     padding: 10px;
 }
 
+
+/* Jumbotron */
 .jumbotron {
     height: 90vh;
     background-color: #b4d0e7;
+    margin-bottom: 20%;
 }
 
 .jumbotron h1 {
@@ -83,4 +87,47 @@ a {
     height: 65%;
     margin-top: 5%;
     margin-left: 2%;
+}
+
+/* Piani e costi d'acquisto */
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.container input {
+    margin-top: 20px;
+}
+
+.second_radio {
+    margin-left: 30px;
+}
+
+.radio_buttons {
+    margin-bottom: 20px;
+}
+
+.column {
+    width: calc(90% / 3);
+    margin-right: 5%;
+    border: 1px lightgray solid;
+    float: left;
+}
+
+.third_col {
+    margin-right: 0;
+}
+
+.col_title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.col_text {
+    padding-left: 20px;
+}
+
+.first_col hr {
+    margin-bottom: 10px;
 }
