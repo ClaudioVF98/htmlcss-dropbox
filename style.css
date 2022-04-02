@@ -22,6 +22,9 @@ header {
 a {
     text-decoration: none;
     color: black;
+}
+
+.navigation li a {
     margin-right: 20px;
 }
 
@@ -105,14 +108,16 @@ a {
 }
 
 .radio_buttons {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .column {
     width: calc(90% / 3);
+    height: 1000px;
     margin-right: 5%;
     border: 1px lightgray solid;
     float: left;
+    margin-bottom: 20px;
 }
 
 .third_col {
@@ -126,8 +131,49 @@ a {
 
 .col_text {
     padding-left: 20px;
+    padding-right: 20px;
 }
 
-.first_col hr {
+.column hr {
     margin-bottom: 10px;
+}
+
+.col_text * {
+    margin-bottom: 20px;
+}
+
+.duration {
+    margin-bottom: 40px;
+}
+
+.trial {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(30, 30, 255);
+    color: white;
+    padding: 10px;
+}
+
+.buy_now {
+    text-decoration: underline;
+    color: rgb(0, 110, 255);
+}
+
+#half_hr {
+    margin-left: 10px;
+    margin-right: 220px;
+    margin-bottom: 40px;
+}
+
+.checkbox {
+    color: rgb(0, 110, 255);
+}
+
+.infolist * {
+    margin-bottom: 20px;
+}
+
+.duration {
+    color: gray;
 }
