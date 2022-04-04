@@ -99,7 +99,7 @@ a {
     margin: auto;
 }
 
-.plans::after {
+.container::after {
     content: "";
     clear: both;
     display: table;
@@ -212,6 +212,11 @@ a {
     margin-bottom: 30px;
 }
 
+/* Partner */
+.find_a_partner {
+    margin-bottom: 100px;
+}
+
 .partner_img {
     width: 45%;
     float: left;
@@ -239,3 +244,28 @@ a {
     display: inline-block;
 }
 
+.operation {
+    width: calc((100% / 3) - 4%);
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    height: 500px
+}
+
+#third_operation, #sixth_operation {
+    margin-right: 0;
+}
+
+
+.operation img {
+    width: 100%;
+}
+
+.operation span {
+    text-decoration: underline;
+}
+
+.text_operation {
+    margin-left: 10px;
+    margin-right: 10px;
+}
